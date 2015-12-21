@@ -1,0 +1,1366 @@
+{
+    "addressid" : {
+        "display" : false,
+        "override_groups" : {
+            "address" : {
+                "display" : true,
+                "mandatory" : true,
+                "order" : "1",
+                "requiredTextResourceKey" : "forms.customeraddress.addressid.missing-error"
+            },
+            "singleshipping" : {
+                "order" : "1",
+                "mandatory" : true,
+                "display" : true,
+                "disablelabel" : false,
+                "placeholder" : null
+            },
+            "billing" : {
+                "order" : "1",
+                "mandatory" : true,
+                "display" : true,
+                "disablelabel" : false,
+                "placeholder" : null
+            }
+        }
+    },
+    "addressnickname" : {
+        "order" : "12",
+        "disablelabel" : true,
+        "placeholder" : "forms.customeraddress.addressnickname.label",
+        "override_groups" : {
+            "profile" : {
+                "display" : false
+            },
+            "singleshipping" : {
+                "order" : "1",
+                "mandatory" : true,
+                "display" : true,
+                "disablelabel" : false,
+                "placeholder" : null
+            },
+            "billing" : {
+                "order" : "1",
+                "mandatory" : true,
+                "display" : true,
+                "disablelabel" : false,
+                "placeholder" : null
+            },
+            "address" : {
+                "display" : false
+            },
+            "creditcardbillingaddress" : {
+                "display" : false
+            }
+        }
+    },
+    "companyinvoice" : {
+        "override_groups" : {
+            "singleshipping" : {
+                "display" : false
+            },
+            "billing" : {
+                "order" : "2",
+                "display" : false,
+                "placeholder" : null,
+				"groupId": "invoice",
+				"groupPosition": 1
+            }
+        }
+    },
+    "companyname" : {
+        "override_groups" : {
+            "singleshipping" : {
+                "display" : false
+            },
+            "billing" : {
+                "order" : "4",
+                "display" : false,
+                "requiredTextResourceKey" : "forms.address.companyname.missing-error",
+                "placeholder" : null,
+				"groupId": "invoice",
+				"groupPosition": 1
+            }
+        }
+    },
+    "rfcandhomoclave" : {
+        "override_groups" : {
+            "singleshipping" : {
+                "display" : false
+            },
+            "billing" : {
+                "order" : "5",
+                "display" : false,
+                "requiredTextResourceKey" : "forms.address.rfcandhomoclave.missing-error",
+                "placeholder" : null,
+				"groupId": "invoice",
+				"groupPosition": 1
+            }
+        }
+    },
+    "firstname" : {
+        "order" : "2",
+        "placeholder" : "forms.customeraddress.firstname.label",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_first_name",
+        "requiredTextResourceKey" : "forms.customeraddress.firstname.missing-error",
+        "override_groups" : {
+            "contactus" : {
+                "disablelabel" : false,
+                "order" : "1",
+                "display" : true,
+                "requiredTextResourceKey" : "forms.contactus.firstname.missing-error"
+            },
+            "profile" : {
+                "order" : "1",
+                "display" : false,
+                "groupID" : "personalinfo"
+            },
+            "prosignup" : {
+                "order" : "10",
+                "disablelabel" : false,
+                "placeholder" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.firstname.missingerror"
+            },
+            "address" : {
+                "display" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "order" : "2",
+                "customCssClass" : "formfield_first_name f_field-block",
+                "placeholder" : false
+            }
+        }
+    },
+    "lastname" : {
+        "order" : "3",
+        "placeholder" : "forms.customeraddress.lastname.label",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_last_name",
+        "requiredTextResourceKey" : "forms.customeraddress.lastname.missing-error",
+        "override_groups" : {
+            "contactus" : {
+                "disablelabel" : false,
+                "order" : "2",
+                "display" : true,
+                "requiredTextResourceKey" : "forms.contactus.lastname.missing-error"
+            },
+            "profile" : {
+                "order" : "2",
+                "display" : false,
+                "groupID" : "personalinfo"
+            },
+            "prosignup" : {
+                "order" : "20",
+                "disablelabel" : false,
+                "placeholder" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.lastname.missingerror"
+            },
+            "address" : {
+                "display" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "order" : "3",
+                "placeholder" : false
+            }
+        }
+    },
+    "firstName" : {
+        "order" : "1",
+        "placeholder" : "profile.firstname",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_first_name",
+        "requiredTextResourceKey" : "forms.customeraddress.firstname.missing-error",
+        "override_groups" : {
+            "contactus" : {
+                "disablelabel" : false,
+                "order" : "1",
+                "display" : true,
+                "requiredTextResourceKey" : "forms.contactus.firstname.missing-error"
+            },
+            "profile" : {
+                "order" : "1",
+                "display" : true,
+                "groupID" : "personalinfo",
+                "groupPosition" : 1,
+                "placeholder" : null,
+                "disablelabel" : false,
+                "requiredTextResourceKey" : "profile.firstname.missing-error"
+            },
+            "singleshipping" : {
+                "disablelabel" : false,
+                "placeholder" : null
+            },
+            "billing" : {
+                "order" : "6",
+                "disablelabel" : false,
+                "placeholder" : null,
+				"type": "hidden"
+            },
+            "creditcardbillingaddress" : {
+                "disablelabel" : false,
+                "placeholder" : null,
+				"type": "hidden"
+            }
+        }
+    },
+    "lastName" : {
+        "order" : "2",
+        "placeholder" : "profile.lastname",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_last_name",
+        "requiredTextResourceKey" : "forms.customeraddress.lastname.missing-error",
+        "override_groups" : {
+            "contactus" : {
+                "disablelabel" : false,
+                "order" : "2",
+                "display" : true,
+                "requiredTextResourceKey" : "forms.contactus.lastname.missing-error"
+            },
+            "profile" : {
+                "order" : "2",
+                "display" : true,
+                "groupID" : "personalinfo",
+                "groupPosition" : 1,
+                "placeholder" : null,
+                "disablelabel" : false,
+                "requiredTextResourceKey" : "profile.lastname.missing-error"
+            },
+            "singleshipping" : {
+                "disablelabel" : false,
+                "placeholder" : null
+            },
+            "billing" : {
+                "order" : "7",
+                "disablelabel" : false,
+                "placeholder" : null,
+				"type": "hidden"
+            },
+            "creditcardbillingaddress" : {
+                "disablelabel" : false,
+                "placeholder" : null
+            }
+        }
+    },
+    "address1" : {
+        "order" : "4",
+        "placeholder" : "forms.address1",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_address1",
+        "requiredTextResourceKey" : "forms.address1error",
+        "override_groups" : {
+            "profile" : {
+                "order" : "1",
+                "requiredTextResourceKey" : "forms.addresserror",
+                "groupID" : "profileaddress",
+                "groupPosition" : 2,
+                "placeholder" : null,
+                "disablelabel" : false,
+                "description" : ""
+            },
+            "prosignup" : {
+                "order" : "30",
+                "disablelabel" : false,
+                "placeholder" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.address1.missingerror"
+            },
+            "singleshipping" : {
+                "disablelabel" : false,
+                "placeholder" : null,
+                "display" : true,
+                "requiredTextResourceKey" : "forms.address.street.missing",
+                "order" : "5"
+            },
+            "billing" : {
+                "display" : true,
+                "disablelabel" : false,
+                "placeholder" : null,
+                "requiredTextResourceKey" : "forms.address.street.missing",
+                "order" : "8"
+            },
+            "address" : {
+                "order" : "4",
+                "mandatory" : true,
+                "customCssClass" : "formfield_address1 f_field-block",
+                "required" : true
+            },
+            "creditcardbillingaddress" : {
+                "disablelabel" : false,
+                "placeholder" : null,
+                "order" : "3"
+            }
+        }
+    },
+    "address2" : {
+        "order" : "5",
+        "placeholder" : "forms.address2",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_address2",
+        "override_groups" : {
+            "profile" : {
+                "order" : "2",
+                "groupID" : "profileaddress",
+                "groupPosition" : 2,
+                "placeholder" : null,
+                "disablelabel" : false,
+                "description" : ""
+            },
+            "prosignup" : {
+                "order" : "40",
+                "disablelabel" : false,
+                "placeholder" : false,
+                "mandatory" : false
+            },
+            "singleshipping" : {
+                "display" : false,
+                "disablelabel" : false,
+                "placeholder" : null
+            },
+            "billing" : {
+                "display" : false,
+                "disablelabel" : false,
+                "placeholder" : null
+            },
+            "address" : {
+                "order" : "50",
+                "display" : false
+            },
+            "creditcardbillingaddress" : {
+                "disablelabel" : false,
+                "placeholder" : null,
+                "order" : "4"
+            }
+        }
+    },
+    "city" : {
+        "order" : "6",
+        "placeholder" : "forms.city",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_city",
+        "requiredTextResourceKey" : "forms.customeraddress.city.missing-error",
+        "override_groups" : {
+            "contactus" : {
+                "order" : "8",
+                "display" : false,
+                "requiredTextResourceKey" : "forms.address.city.missing"
+            },
+            "profile" : {
+                "order" : "3",
+                "groupID" : "profileaddress",
+                "groupPosition" : 2,
+                "placeholder" : null,
+                "disablelabel" : false
+            },
+            "prosignup" : {
+                "order" : "50",
+                "disablelabel" : false,
+                "placeholder" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.city.missingerror"
+            },
+            "singleshipping" : {
+                "order" : "11",
+                "disablelabel" : false,
+                "placeholder" : null,
+                "validationCssClass" : "v-city"
+            },
+            "billing" : {
+                "display" : true,
+                "order" : "12",
+                "disablelabel" : false,
+                "placeholder" : null,
+                "validationCssClass" : "v-city"
+            },
+            "address" : {
+                "order" : "10",
+                "validationCssClass" : "v-city"
+            },
+            "creditcardbillingaddress" : {
+                "disablelabel" : false,
+                "placeholder" : null,
+                "order" : "6"
+            }
+        }
+    },
+    "creditCardNickname" : {
+        "order" : "1",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_nickname",
+        "validationCssClass" : "normalCase",
+        "mandatory" : true,
+        "requiredTextResourceKey" : "creditcard.nicknamemissingerror",
+        "placeholder" : "creditcard.nicknameplaceholder",
+        "maxLength" : "40",
+        "override_groups" : {
+            "newcreditcard" : {
+                "display" : false
+            },
+            "editcreditcard" : {
+                "display" : false
+            }
+        }
+    },
+    "owner" : {
+        "order" : "2",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_owner",
+        "validationCssClass" : "normalCase",
+        "requiredTextResourceKey" : "creditcard.ownermissingerror",
+        "placeholder" : "creditcard.ownerplaceholder",
+        "override_groups" : {
+            "newcreditcard" : {
+                "placeholder" : false,
+                "order" : "5",
+                "display" : true
+            },
+            "editcreditcard" : {
+                "display" : true,
+                "placeholder" : false,
+                "order" : "5"
+            }
+        }
+    },
+    "type" : {
+        "order" : "3",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_type",
+        "requiredTextResourceKey" : "creditcard.typemissing",
+        "override_groups" : {
+            "newcreditcard" : {
+                "order" : "10"
+            },
+            "editcreditcard" : {
+                "order" : "10"
+            }
+        }
+    },
+    "number" : {
+        "order" : "4",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_number",
+        "validationCssClass" : "credit_card_add_number",
+        "requiredTextResourceKey" : "creditcard.numbermissingerror",
+        "placeholder" : "creditcard.numberplaceholder",
+        "maxLength" : "16",
+        "override_groups" : {
+            "newcreditcard" : {
+                "order" : "50",
+                "placeholder" : false
+            },
+            "editcreditcard" : {
+                "order" : "50",
+                "placeholder" : false
+            }
+        }
+    },
+    "email" : {
+        "customCssClass" : "formfield_email",
+        "type" : "email",
+        "requiredTextResourceKey" : "profile.email.missing-error",
+        "override_groups" : {
+            "contactus" : {
+                "disablelabel" : false,
+                "order" : "3",
+                "display" : true,
+                "requiredTextResourceKey" : "forms.contactus.email.missing-error",
+                "placeholder" : "profile.email"
+            },
+            "newsletter" : {
+                "placeholder" : "forms.subscribe.email.default"
+            },
+            "profile" : {
+                "order" : "3",
+                "display" : true,
+                "customCssClass" : "formfield_email_first",
+                "groupID" : "personalinfo",
+                "groupPosition" : 1
+            },
+            "prosignup" : {
+                "order" : "80",
+                "disablelabel" : false,
+                "placeholder" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.email.missingerror"
+            },
+            "sendquizresult" : {
+                "display" : true,
+                "order" : "3",
+                "placeholder" : "profile.email",
+                "disablelabel" : true
+            },
+            "singleshipping" : {
+				"display" : false,
+                "order" : "14"
+            },
+            "billing" : {
+				"display" : false,
+                "order" : "17"
+            }
+        }
+    },
+    "emailconfirm" : {
+        "display" : false,
+        "type" : "email",
+        "placeholder" : "placeholder.emailconfirm",
+        "requiredTextResourceKey" : "profile.email.missing-error",
+        "validationCssClass" : "emailemail_equal_confirm",
+        "override_groups" : {
+            "profile" : {
+                "order" : "4",
+                "display" : true,
+                "mandatory" : true,
+                "customCssClass" : "formfield_email_confirm",
+                "validationCssClass" : "email_equal_confirm",
+                "groupID" : "personalinfo",
+                "groupPosition" : 1,
+                "placeholder" : null
+            }
+        }
+    },
+    "password" : {
+        "display" : true,
+        "type" : "password",
+        "maxLength" : 20,
+        "minLength" : 5,
+        "placeholder" : "placeholder.password",
+        "requiredTextResourceKey" : "login.password.missing-error",
+        "override_groups" : {
+            "profile" : {
+                "order" : "8",
+                "display" : true,
+                "mandatory" : true,
+                "placeholder" : null,
+                "customCssClass" : "formfield_password_first",
+                "groupID" : "personalinfo",
+                "groupPosition" : 1
+            },
+            "resetpassword" : {
+                "display" : true,
+                "mandatory" : true,
+                "customCssClass" : "formfield_passwordformfield_password_first"
+            },
+            "gigyalink" : {
+                "display" : true,
+                "mandatory" : true,
+                "disablelabel" : true
+            }
+        }
+    },
+    "passwordconfirm" : {
+        "display" : false,
+        "type" : "password",
+        "maxLength" : 20,
+        "minLength" : 5,
+        "placeholder" : "placeholder.passwordconfirm",
+        "requiredTextResourceKey" : "login.password.missing-error",
+        "override_groups" : {
+            "profile" : {
+                "order" : "9",
+                "display" : true,
+                "mandatory" : true,
+                "validationCssClass" : "password_equal_confirm",
+                "customCssClass" : "formfield_password_confirm",
+                "groupID" : "personalinfo",
+                "groupPosition" : 1
+            },
+            "resetpassword" : {
+                "display" : true,
+                "mandatory" : true,
+                "validationCssClass" : "password_equal_confirm",
+                "customCssClass" : "formfield_password_confirm"
+            }
+        }
+    },
+    "phone" : {
+        "order" : "11",
+        "placeholder" : "profile.phone",
+        "requiredTextResourceKey" : "forms.customeraddress.phone.missing-error",
+        "mandatory" : true,
+        "disablelabel" : true,
+        "customCssClass" : "formfield_phone",
+        "override_groups" : {
+            "contactus" : {
+                "order" : "4",
+                "display" : true,
+                "placeholder" : "profile.phone",
+                "disablelabel" : false,
+                "mandatory" : false
+            },
+            "profile" : {
+                "display" : false                
+            },
+            "prosignup" : {
+                "order" : "90",
+                "disablelabel" : false,
+                "label" : "forms.pro.phone",
+                "placeholder" : false,
+                "mandatory" : false,
+                "required" : false,
+                "requiredTextResourceKey" : "forms.pro.phone.missingerror",
+                "validationCssClass" : "phone_no_dashes"
+            },
+            "singleshipping" : {
+                "type" : "hidden",
+                "description" : "",
+                "order" : "14",
+                "display" : false
+            },
+            "billing" : {
+                "type" : "hidden",
+                "description" : "",
+                "display" : false
+            },
+            "address" : {
+                                "placeholder" : null,
+                                "disablelabel" : false,
+                "label" : "forms.address.mobilephone",
+                "display" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.phone.missingerror",
+                "validationCssClass" : "phone_no_dashes",
+                "customCssClass" : "",
+                "order" : "12"
+            },
+            "creditcardbillingaddress" : {
+                "disablelabel" : false,
+                "placeholder" : null,
+                "order" : "9",
+                "validationCssClass" : "phone_no_dashes"
+            }
+        }
+    },
+    "mobile" : {
+        "display" : false,
+        "validationCssClass" : "mobile_phone",        
+        "override_groups" : {
+            "checkoutSubscription" : {
+                "order" : "3",
+                "mandatory" : true,
+                "customCssClass" : "hidden",
+                "requiredTextResourceKey" : "forms.newsletter.mobile.missing-error",
+                "display" : true
+            },
+            "profile" : {
+                "display" : true,
+                "order" : "21",
+                "groupID" : "personalinfo",
+                "groupPosition" : 1,
+                "placeholder" : null,
+                "disablelabel" : false,
+                "mandatory" : true,
+	        "requiredTextResourceKey" : "forms.address.mobile.missing",
+                "customCssClass" : "formfield_phone",
+                "label" : "forms.address.mobilephone",
+                "validationCssClass" : "mobile_phone"
+            },
+            "singleshipping" : {
+                "display" : true,
+                "requiredTextResourceKey" : "forms.address.mobile.missing",
+                "validationCssClass" : "mobile_phone",
+                "order" : "14"
+            },
+            "billing" : {
+                "display" : true,
+                "requiredTextResourceKey" : "forms.address.mobile.missing",
+                "validationCssClass" : "mobile_phone",
+                "order" : "17"
+            }
+        }
+    },
+    "addtoemaillist" : {
+        "display" : false,
+        "override_groups" : {
+            "profile" : {
+                "order" : "1",
+                "display" : true,
+                "groupID" : "newsletter",
+                "groupPosition" : 3,
+                "noprefilling" : true,
+                "customCssClass" : "add_to_emaillist",
+                "attributes" : [
+                    "checked"
+                ],
+                "values" : [
+                    "checked"
+                ]
+            }
+        }
+    },
+    "loyalty" : {
+        "display" : false,
+        "override_groups" : {
+            "profile" : {
+                "order" : "1",
+                "display" : true,
+                "groupID" : "rewards",
+                "groupPosition" : 4,
+                "attributes" : [
+                    "checked"
+                ],
+                "values" : [
+                    "checked"
+                ]
+            }
+        }
+    },
+    "sendmobilealerts" : {
+        "display" : false,
+        "override_groups" : {
+            "profile" : {
+                "display" : true
+            },
+            "checkoutSubscription" : {
+                "order" : "2",
+                "display" : true
+            }
+        }
+    },
+    "day" : {
+        "display" : false,
+        "override_groups" : {
+            "birthdayfields" : {
+                "display" : true,
+                "order" : "2"
+            },
+            "profile" : {
+                "order" : "8",
+                "display" : true,
+                "mandatory" : false,
+                "customCssClass" : "formfield_day",
+                "groupID" : "personalinfo",
+                "groupPosition" : 1
+            },
+            "prosignup" : {
+                "display" : true,
+                "order" : "110",
+                "disablelabel" : true,
+                "placeholder" : false,
+                "mandatory" : false
+            }
+        }
+    },
+    "month" : {
+        "display" : false,
+        "override_groups" : {
+            "birthdayfields" : {
+                "display" : true,
+                "order" : "1"
+            },
+            "profile" : {
+                "order" : "7",
+                "display" : true,
+                "mandatory" : false,
+                "customCssClass" : "formfield_month",
+                "groupID" : "personalinfo",
+                "groupPosition" : 1
+            },
+            "prosignup" : {
+                "display" : true,
+                "order" : "100",
+                "disablelabel" : true,
+                "disableplaceholder" : true,
+                "placeholder" : false,
+                "mandatory" : false
+            },
+            "creditCard" : {
+                "disablelabel" : true
+            },
+            "newcreditcard" : {
+                "disablelabel" : true
+            }
+        }
+    },
+    "gender" : {
+        "display" : false,
+        "override_groups" : {
+            "profile" : {
+                "order" : "1",
+                "display" : true,
+                "mandatory" : true,
+                "groupID" : "personalinfo",
+                "groupPosition" : 1,
+                "type" : "radio-list",
+                "requiredTextResourceKey" : "profile.gender.error"
+            }
+        }
+    },
+    "year" : {
+        "display" : false,
+        "override_groups" : {
+            "birthdayfields" : {
+                "display" : true,
+                "order" : "3"
+            },
+            "prosignup" : {
+                "type" : "select",
+                "display" : true,
+                "order" : "120",
+                "disablelabel" : true,
+                "mandatory" : false
+            },
+            "creditCard" : {
+                "disablelabel" : true
+            },
+            "profile" : {
+                "order" : "9",
+                "display" : true,
+                "mandatory" : false,
+                "customCssClass" : "formfield_year",
+                "groupID" : "personalinfo",
+                "groupPosition" : 1
+            }
+        }
+    },
+    "birthday" : {
+        "display" : false,
+        "override_groups" : {
+            "customer" : {
+                "label" : "profile.dob",
+                "display" : true
+            },
+            "prosignup" : {
+                "order" : "95",
+                "display" : true,
+                "disablelabel" : false,
+                "label" : "forms.pro.birthday",
+                "customCssClass" : "formfield_hidden"
+            }
+        }
+    },
+    "occupation" : {
+        "override_groups" : {
+            "prosignup" : {
+                "order" : "130",
+                "display" : true,
+                "disablelabel" : false,
+                "type" : "radio-list",
+                "mandatory" : true
+            }
+        }
+    },
+    "professionalProgram" : {
+        "override_groups" : {
+            "prosignup" : {
+                "order" : "140",
+                "display" : true,
+                "disablelabel" : false,
+                "type" : "radio-list",
+                "mandatory" : true
+            }
+        }
+    },
+    "agency" : {
+        "override_groups" : {
+            "prosignup" : {
+                "order" : "150",
+                "display" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.agency.missingerror",
+                "infoAssetId" : "membership-agency-representation"
+            }
+        }
+    },
+    "agencyAddress" : {
+        "override_groups" : {
+            "prosignup" : {
+                "order" : "160",
+                "display" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.agencyaddress.missingerror"
+            }
+        }
+    },
+    "agencyPhone" : {
+        "override_groups" : {
+            "prosignup" : {
+                "order" : "170",
+                "display" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.agencyphone.missingerror",
+                "validationCssClass" : "phone_no_dashes"
+            }
+        }
+    },
+    "agencyWebsite" : {
+        "override_groups" : {
+            "prosignup" : {
+                "order" : "180",
+                "display" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.agencywebsite.missingerror",
+                "validationCssClass" : "url"
+            }
+        }
+    },
+    "signature" : {
+        "override_groups" : {
+            "prosignup" : {
+                "order" : "190",
+                "display" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.signature.missingerror",
+                "infoAssetId" : "membership-agreement"
+            }
+        }
+    },
+    "file1" : {
+        "override_groups" : {
+            "prosignup" : {
+                "order" : "200",
+                "display" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "type" : "file"
+            }
+        }
+    },
+    "file2" : {
+        "override_groups" : {
+            "prosignup" : {
+                "order" : "200",
+                "display" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "type" : "hidden"
+            }
+        }
+    },
+    "file3" : {
+        "override_groups" : {
+            "prosignup" : {
+                "order" : "200",
+                "display" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "type" : "hidden"
+            }
+        }
+    },
+    "accountnumber" : {
+        "customCssClass" : "formfield_accountnumber",
+        "override_groups" : {
+            "contactus" : {
+                "order" : "5",
+                "display" : false
+            }
+        }
+    },
+    "salonname" : {
+        "customCssClass" : "formfield_salonname",
+        "requiredTextResourceKey" : "forms.contactus.salonname.missing-error",
+        "override_groups" : {
+            "contactus" : {
+                "order" : "6",
+                "display" : false
+            }
+        }
+    },
+    "salonaddress" : {
+        "customCssClass" : "formfield_salonaddress",
+        "override_groups" : {
+            "contactus" : {
+                "order" : "7",
+                "display" : false
+            }
+        }
+    },
+    "salonziporaddress" : {
+        "customCssClass" : "formfield_salonaddress",
+        "validationCssClass" : "normalCase",
+        "placeholder" : "storelocator.clp.zipplaceholder",
+        "requiredTextResourceKey" : "storelocator.clp.missing-error",
+        "override_groups" : {
+            "contactus" : {
+                "order" : "7",
+                "display" : false
+            }
+        }
+    },
+    "country" : {
+        "order" : "3",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_country",
+        "requiredTextResourceKey" : "forms.customeraddress.country.missing-error",
+        "override_groups" : {
+            "contactus" : {
+                "display" : false
+            },
+            "shippingAddress" : {
+                "type" : "hidden",
+                "value" : "MX"
+            },
+            "billingAddress" : {
+                "customSelectOptions" : [{
+                        "value" : "",
+                        "label" : "Select"
+                    }, {
+                        "value" : "US",
+                        "label" : "United States"
+                    }, {
+                        "value" : "BR",
+                        "label" : "Brazil"
+                    }, {
+                        "value" : "CA",
+                        "label" : "Canada"
+                    }, {
+                        "value" : "CN",
+                        "label" : "China"
+                    }, {
+                        "value" : "DE",
+                        "label" : "Germany"
+                    }, {
+                        "value" : "GB",
+                        "label" : "United Kingdom"
+                    }
+                ],
+                "disablelabel" : false,
+                "placeholder" : null,
+                "order" : 5
+            },
+            "profile" : {
+                "disableplaceholder" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "order" : "6",
+                "groupID" : "profileaddress",
+                "groupPosition" : 2
+            },
+            "prosignup" : {
+                "order" : "60",
+                "type" : "hidden",
+                "value" : "MX"
+            },
+            "billing" : {
+                "display" : false
+            },
+            "address" : {
+                "order" : "90",
+                "type" : "hidden",
+                "value" : "MX"
+            },
+            "creditcardbillingaddress" : {
+                "disablelabel" : false,
+                "placeholder" : null,
+                "order" : "5",
+                "customSelectOptions" : [{
+                        "value" : "",
+                        "label" : "Select"
+                    }, {
+                        "value" : "US",
+                        "label" : "United States"
+                    }, {
+                        "value" : "CA",
+                        "label" : "Canada"
+                    }, {
+                        "value" : "BR",
+                        "label" : "Brazil"
+                    }, {
+                        "value" : "CN",
+                        "label" : "China"
+                    }, {
+                        "value" : "DE",
+                        "label" : "Germany"
+                    }, {
+                        "value" : "GB",
+                        "label" : "United Kingdom"
+                    }
+                ]
+            }
+        }
+    },
+    "state" : {
+        "order" : "8",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_state",
+        "requiredTextResourceKey" : "forms.address.state.missing",
+        "override_groups" : {
+            "contactus" : {
+                "order" : "9",
+                "display" : false
+            },
+            "billingAddress" : {
+                "label" : "forms.stateprovince",
+                "disablelabel" : false,
+                "placeholder" : null,
+                "order" : "12"
+            },
+            "profile" : {
+                "disableplaceholder" : true,
+                "disablelabel" : false,
+                "mandatory" : true,
+                "order" : "4",
+                "groupID" : "profileaddress",
+                "groupPosition" : 2
+            },
+            "prosignup" : {
+                "order" : "60",
+                "disablelabel" : false,
+                "label" : "forms.pro.state",
+                "placeholder" : false,
+                "mandatory" : true
+            },
+            "singleshipping" : {
+                "order" : "9",
+                "disablelabel" : false,
+                "mandatory" : true,
+                "placeholder" : null,
+                "validationCssClass" : "v-state"
+            },
+            "billing" : {
+                "order" : "13",
+                "disablelabel" : true,
+                "mandatory" : true,
+                "placeholder" : null,
+                "validationCssClass" : "v-state"
+            },
+            "address" : {
+                "customCssClass" : "formfield_state f_field-block",
+                "order" : "8",
+                "validationCssClass" : "v-state"
+            },
+            "creditcardbillingaddress" : {
+                "disablelabel" : false,
+                "placeholder" : null,
+                "mandatory" : true,
+                "order" : "7"
+            }
+        }
+    },
+    "zip" : {
+        "order" : "9",
+        "placeholder" : "forms.zipcode",
+        "disablelabel" : true,
+        "customCssClass" : "formfield_zip",
+        "validationCssClass" : "postal",
+        "requiredTextResourceKey" : "forms.errorzip",
+        "validators" : [
+            "ZIPCode"
+        ],
+        "override_groups" : {
+            "contactus" : {
+                "order" : "10",
+                "display" : false
+            },
+            "profile" : {
+                "order" : "5",
+                "groupID" : "profileaddress",
+                "groupPosition" : 2,
+                "placeholder" : null,
+                "disablelabel" : false
+            },
+            "prosignup" : {
+                "order" : "70",
+                "disablelabel" : false,
+                "placeholder" : false,
+                "mandatory" : true,
+                "requiredTextResourceKey" : "forms.pro.zip.missingerror"
+            },
+            "singleshipping" : {
+                "order" : "8",
+                "disablelabel" : false,
+                "placeholder" : null,
+                "label" : "forms.zippostalcode",
+                "validationCssClass" : "v-zip"
+            },
+            "billing" : {
+                "order" : "10",
+                "disablelabel" : false,
+                "placeholder" : null,
+                "label" : "forms.zippostalcode",
+                "validationCssClass" : "v-zip"
+            },
+            "billingAddress" : {
+                "order" : "11",
+                "disablelabel" : false,
+                "placeholder" : null
+            },
+            "address" : {
+                "customCssClass" : "formfield_zip f_field-block",
+                "order" : "7",
+                "validationCssClass" : "v-zip"
+            },
+            "creditcardbillingaddress" : {
+                "disablelabel" : false,
+                "placeholder" : null,
+                "order" : "8"
+            }
+        }
+    },
+    "brands" : {
+        "order" : "11",
+        "customCssClass" : "formfield_brands",
+        "display" : false
+    },
+    "ordernumber" : {
+        "order" : "12",
+        "customCssClass" : "formfield_ordernumber",
+        "display" : true,
+        "override_groups" : {
+            "contactus" : {
+                "disablelabel" : false,
+                "order" : "5",
+                "display" : true,
+                "placeholder" : "forms.contactus.ordernumber"
+            }
+        }
+    },
+    "myquestion" : {
+        "order" : "6",
+        "customCssClass" : "formfield_myquestion",
+        "customSelectOptions" : "MyQuestionOptions",
+        "display" : true,
+        "requiredTextResourceKey" : "forms.contactus.question.missing-error",
+        "disablelabel" : true,
+        "override_groups" : {
+            "contactus" : {
+                "disablelabel" : false,
+                "order" : "6",
+                "display" : true,
+                "disableplaceholder" : true
+            }
+        }
+    },
+    "comment" : {
+        "order" : "8",
+        "customCssClass" : "formfield_comment",
+        "display" : true,
+        "requiredTextResourceKey" : "forms.contactus.comment.missing-error",
+        "disablelabel" : true,
+        "placeholder" : "forms.contactus.comment",
+        "override_groups" : {
+            "contactus" : {
+                "disablelabel" : false
+            }
+        }
+    },
+    "intendeddepartment" : {
+        "order" : "7",
+        "customCssClass" : "formfield_comment",
+        "display" : false,
+        "customSelectOptions" : "intendeddepartment",
+        "disablelabel" : true
+    },
+    "emailAddress" : {
+        "order" : "13",
+        "type" : "email",
+        "display" : true,
+        "validationCssClass" : "email",
+        "customCssClass" : "emailaddress",
+        "requiredTextResourceKey" : "forms.contactus.email.missing-error",
+        "placeholder" : "placeholder.useremail"
+    },
+    "sendnewsletters" : {
+        "display" : false,
+        "override_groups" : {
+            "checkoutSubscription" : {
+                "order" : "1",
+                "display" : true,
+                "attributes" : [
+                    "checked"
+                ],
+                "values" : [
+                    "checked"
+                ]
+            }
+        }
+    },
+    "username" : {
+        "customCssClass" : "formfield_email",
+        "type" : "email",
+        "placeholder" : "forms.email.placeholder",
+        "requiredTextResourceKey" : "forms.email.missing-error",
+        "override_groups" : {
+            "gigyalink" : {
+                "display" : true,
+                "mandatory" : true,
+                "disablelabel" : true
+            },
+            "profile" : {
+                "display" : false
+            }
+        }
+    },
+    "exterior" : {
+        "validationCssClass" : "alphanumeric",
+        "override_groups" : {
+            "singleshipping" : {
+                "display" : true,
+                "requiredTextResourceKey" : "forms.address.exterior.missing",
+                "order" : "6"
+            },
+            "billing" : {
+                "display" : true,
+                "requiredTextResourceKey" : "forms.address.exterior.missing",
+                "order" : "9"
+            },
+            "address" : {
+                "display" : true,
+                "requiredTextResourceKey" : "forms.address.exterior.missing",
+                "order" : "5"
+            }
+        }
+    },
+    "interior" : {
+        "display" : true,
+        "validationCssClass" : "alphanumeric",
+        "requiredTextResourceKey" : "forms.address.exterior.missing",
+        "order" : "6",
+        "override_groups" : {
+            "singleshipping" : {
+                "order" : "7"
+            },
+            "billing" : {
+                "order" : "10"
+            },
+            "address" : {
+                "display" : true,
+                "order" : "6"
+            }
+        }
+    },
+    "municipe" : {
+        "display" : true,
+        "order" : "11",
+        "requiredTextResourceKey" : "forms.address.municipe.missing",
+        "validationCssClass" : "v-municipe",
+        "override_groups" : {
+            "billing" : {
+                "order" : "13"
+            },
+            "address" : {
+                "display" : true,
+                "order" : "9"
+            }
+        }
+    },
+    "colony" : {
+        "display" : true,
+        "order" : "13",
+        "requiredTextResourceKey" : "forms.address.colony.missing",
+        "validationCssClass" : "v-colony",
+        "override_groups" : {
+            "billing" : {
+                "order" : "15"
+            },
+            "address" : {
+                "display" : true,
+                "type" : "select",
+                "order" : "11"
+            }
+        }
+    },
+    "colonyOther" : {
+        "display" : false,
+        "order" : "13",
+        "requiredTextResourceKey" : "forms.address.colony.other.missing",
+        "customCssClass" : "v-colony-other"
+    }
+}
